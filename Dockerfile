@@ -1,6 +1,8 @@
 FROM node
 
 RUN apt-get update && apt-get install -y \
-	pdftk
+	pdftk \
+        ocaml \
+        libelf-dev
 
 RUN npm install
