@@ -1,4 +1,4 @@
-FROM node:8.2.1
+FROM node:8.3.0
 
 RUN apt-get update && apt-get install -y \
 	pdftk \
