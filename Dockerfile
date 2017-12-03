@@ -1,4 +1,4 @@
-FROM node:9.1.0-alpine
+FROM node:9.2.0-alpine
 
 RUN apk add --update --no-cache \
 	--repository http://dl-3.alpinelinux.org/alpine/edge/testing \
@@ -9,5 +9,3 @@ RUN apk add --update --no-cache \
 	pdftk \
         ocaml \
         libelf-dev
-
-CMD npm install
