@@ -1,4 +1,4 @@
-FROM node:9.4.0-alpine
+FROM node:9.6.1-alpine
 
 RUN apk add --update --no-cache \
 	--repository http://dl-3.alpinelinux.org/alpine/edge/testing \
