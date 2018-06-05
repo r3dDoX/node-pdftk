@@ -1,4 +1,4 @@
-FROM node:10.1.0-alpine
+FROM node:10.3.0-alpine
 
 RUN apk update && apk upgrade && apk add --no-cache \
 	--repository http://dl-3.alpinelinux.org/alpine/edge/testing \
@@ -7,5 +7,5 @@ RUN apk update && apk upgrade && apk add --no-cache \
 	fftw-dev \
 	python \
 	pdftk \
-        ocaml \
-        libelf-dev
+    ocaml \
+    libelf-dev
