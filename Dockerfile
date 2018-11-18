@@ -1,11 +1,8 @@
-FROM node:10.11.0-alpine
+FROM node:10.13.0-alpine
 
 RUN apk update && apk upgrade && apk add --no-cache \
-	--repository http://dl-3.alpinelinux.org/alpine/edge/testing \
 	alpine-sdk \
-	vips-dev \
-	fftw-dev \
 	python \
 	pdftk \
-    ocaml \
-    libelf-dev
+	ocaml \
+	libelf-dev
