@@ -1,4 +1,4 @@
-FROM node:10.13.0-alpine
+FROM node:11.8.0-alpine
 
 RUN apk update && apk upgrade && apk add --no-cache \
 	alpine-sdk \
